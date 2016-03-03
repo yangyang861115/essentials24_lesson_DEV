@@ -1,0 +1,24 @@
+{
+  "name": "essential24_lesson",
+  "version": "1.0.0",
+  "description": "lesson page for essential24 website",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangyang861115/essentials24_lesson_DEV.git"
+  },
+  "author": "Yang Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangyang861115/essentials24_lesson_DEV/issues"
+  },
+  "homepage": "https://github.com/yangyang861115/essentials24_lesson_DEV#readme"
+}
