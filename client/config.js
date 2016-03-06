@@ -13,11 +13,13 @@
             })
             .when("/lesson", {
                 templateUrl: "views/lesson/lesson.view.html",
-                controller: "LessonController"
+                controller: "LessonController",
+                controllerAs: "model"
             })
             .when("/lesson/:id", {
                 templateUrl: "views/lesson/lesson.view.html",
-                controller: "LessonController"
+                controller: "LessonController",
+                controllerAs: "model"
             })
             .otherwise({
                 templateUrl: "views/error/error.view.html",
