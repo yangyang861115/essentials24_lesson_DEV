@@ -6,17 +6,50 @@
         .module("LessonApp")
         .controller("LessonController", LessonController);
 
-    function LessonController($scope, $http, $location, $sce){
+    function LessonController($location, $sce, $routeParams, LessonService){
         var vm = this;
+        vm.form = {};
         vm.renderHtml = renderHtml;
         vm.submit = submit;
+        var study = $routeParams.study;
+        var lesson = $routeParams.lesson;
+        var page = $routeParams.page;
+        var URL ="https://essentials24.net/api.php?a=less_info&i=";
 
-        $http.get("https://essentials24.net/api.php?a=less_info&i=4.1.2")
-            .success(function (data) {
-                vm.lesson = data;
-                var lessId = vm.lesson.lessID;
-                $location.url('/lesson/'+lessId);
-            });
+        function  init(){
+            console.log("study= " + study + " lesson= " + lesson + " page= " + page);
+
+            if (study != null && lesson != null && page != null) {
+                URL += study + "." + lesson + "." + page;
+            }
+            else {
+                URL += "4.1.1";
+                study = 4;
+                lesson = 1;
+                page = 1;
+                $location.url('/lesson/'+study + "/" + lesson + "/" +page);
+            }
+
+            LessonService
+                .findLesson(URL)
+                .then(function (response) {
+                    console.log(response.data);
+                    vm.lesson = response.data;
+                    vm.form.ival = vm.lesson.ival;
+                });
+        }
+        init();
+
+
+        //$http
+        //    .get(URL)
+        //    .success(function (data) {
+        //        console.log(data);
+        //        vm.lesson = data;
+        //        vm.form.ival = data.ival;
+        //        //var curpg = vm.lesson.curpg;
+        //        //$location.url('/lesson/'+curpg);
+        //    });
 
 
         function renderHtml(html_code) {
@@ -24,8 +57,32 @@
         }
 
         function submit(btn) {
-            console.log(btn + " button clicked");
-            console.log(vm.form);
+            vm.form.btn = btn;
+
+            LessonService.submitAns(URL, vm.form)
+                .then(function (response) {
+                    console.log(response.data);
+                    if (response.data.success){
+                        vm.lesson = response.data;
+                        page = vm.lesson.curpg;
+                        $location.url('/lesson/'+study + "/" + lesson + "/" +page);
+                    }
+                });
+
+            //$http({
+            //    method: 'POST',
+            //    url: URL,
+            //    data: vm.form
+            //
+            //}).success(function (data) {
+            //    console.log(data);
+            //    if (data.success){
+            //        vm.lesson = data;
+            //        page = vm.lesson.curpg;
+            //        $location.url('/lesson/'+study + "/" + lesson + "/" +page);
+            //    }
+            //});
+
         }
     }
 })();

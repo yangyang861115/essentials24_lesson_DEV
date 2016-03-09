@@ -16,13 +16,13 @@
                 controller: "LessonController",
                 controllerAs: "model"
             })
-            .when("/lesson/:id", {
+            .when("/lesson/:study/:lesson/:page", {
                 templateUrl: "views/lesson/lesson.view.html",
                 controller: "LessonController",
                 controllerAs: "model"
             })
             .otherwise({
-                templateUrl: "views/error/error.view.html",
+                templateUrl: "views/lesson/lesson.view.html",
             });
     }
 })();
