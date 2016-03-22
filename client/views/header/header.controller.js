@@ -6,7 +6,7 @@
         .module("LessonApp")
         .controller("HeaderController", HeaderController);
 
-    function HeaderController($scope){
-        $scope.header = "this is header";
+    function HeaderController(){
+        var vm = this;
     }
 })();

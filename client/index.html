@@ -10,19 +10,21 @@
 </head>
 <body>
 
+<div ng-include="'views/header/header.view.html'"></div>
 <div class="container">
-    <div ng-include="'views/header/header.view.html'"></div>
     <div ng-view></div>
 </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
-    <script src="app.js"></script>
-    <script src="config.js"></script>
-    <script src="views/lesson/lesson.controller.js"></script>
-    <script src="views/header/header.controller.js"></script>
-    <script src="views/footer/footer.controller.js"></script>
-    <script src="directives/compileTemplate.directive.js"></script>
-    <script src="services/lesson.service.client.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="config.js"></script>
+<script src="views/lesson/lesson.controller.js"></script>
+<script src="views/header/header.controller.js"></script>
+<script src="views/footer/footer.controller.js"></script>
+<script src="views/login/login.controller.js"></script>
+<script src="directives/compileTemplate.directive.js"></script>
+<script src="services/lesson.service.client.js"></script>
 
 </body>
 </html>

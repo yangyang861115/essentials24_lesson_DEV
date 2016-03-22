@@ -8,8 +8,10 @@
 
     function configuration($routeProvider) {
         $routeProvider
-            .when("/", {
-                redirectTo: "/lesson"
+            .when("/login", {
+                templateUrl: "views/login/login.view.html",
+                controller: "LoginController",
+                controllerAs: "model"
             })
             .when("/lesson", {
                 templateUrl: "views/lesson/lesson.view.html",
@@ -22,7 +24,7 @@
                 controllerAs: "model"
             })
             .otherwise({
-                templateUrl: "views/lesson/lesson.view.html",
+                redirectTo: "/lesson"
             });
     }
 })();
