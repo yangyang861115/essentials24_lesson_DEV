@@ -41,14 +41,20 @@
                     </uib-accordion-heading>
                     <form class="form" id="ue_pd_fm" novalidate="novalidate">
                         <div class="form-group has-feedback">
-                            <label class="sr-only" for="username">Username</label>
-                            <input type="text" name="username" id="username" placeholder="Username" class="form-control"
-                                   required>
+                            <div class="input-group">
+                                <label class="sr-only" for="username">Username</label>
+                                <input type="text" name="username" id="username" placeholder="Username"
+                                       class="form-control" required>
+                                <span class="input-group-addon">required</span>
+                            </div>
                         </div>
                         <div class="form-group has-feedback">
-                            <label class="sr-only" for="password">Password</label>
-                            <input type="password" name="password" id="password" placeholder="Password"
-                                   class="form-control" required>
+                            <div class="input-group">
+                                <label class="sr-only" for="password">Password</label>
+                                <input type="password" name="password" id="password" placeholder="Password"
+                                       class="form-control" required>
+                                <span class="input-group-addon">required</span>
+                            </div>
                             <small class="help-block" style="display: none;">7 character upper and lower case</small>
                         </div>
                         <div class="text-left">
@@ -75,10 +81,12 @@
                             access.</p>
                         <form class="form" id="send_email_form" method="post" novalidate="novalidate">
                             <div class="form-group has-feedback">
-                                <label class="sr-only" for="email">Email</label>
-                                <input type="email" name="email" id="email" placeholder="Enter Email Address"
-                                       class="form-control" required>
-
+                                <div class="input-group">
+                                    <label class="sr-only" for="email">Email</label>
+                                    <input type="email" name="email" id="email" placeholder="Enter Email Address"
+                                           class="form-control" required>
+                                    <span class="input-group-addon">required</span>
+                                </div>
                                 <small class="help-block" style="display: none;">The Email is required and cannot be
                                     empty
                                 </small>
@@ -87,7 +95,7 @@
                                 </small>
                             </div>
                             <div class="form-group text-center">
-                                <input type="button" id="send_email_btn" value="Send Code"
+                                <input type="button" id="sgend_email_btn" value="Send Code"
                                        class="btn center-block btn-default">
                             </div>
                         </form>
