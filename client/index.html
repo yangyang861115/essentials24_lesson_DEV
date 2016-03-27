@@ -12,12 +12,13 @@
 
 <div ng-include="'views/header/header.view.html'"></div>
 <div class="container">
-    <div ng-view></div>
+    <div class="col-md-8 col-md-offset-2" ng-view></div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
 <script src="libraries/ui-bootstrap-tpls-1.2.5.js"></script>
+<script src="libraries/angular-ui-validate.min.js"></script>
 <script src="app.js"></script>
 <script src="config.js"></script>
 <script src="views/lesson/lesson.controller.js"></script>
@@ -26,6 +27,7 @@
 <script src="views/login/login.controller.js"></script>
 <script src="directives/compileTemplate.directive.js"></script>
 <script src="services/lesson.service.client.js"></script>
+<script src="services/user.service.client.js"></script>
 
 </body>
 </html>

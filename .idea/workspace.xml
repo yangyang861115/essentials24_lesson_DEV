@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5863ea54-0d80-4c10-b5cb-5c67521405cf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/libraries/angular-ui-validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/services/user.service.client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.js" afterPath="$PROJECT_DIR$/client/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/css/style.css" afterPath="$PROJECT_DIR$/client/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/lesson/lesson.view.html" afterPath="$PROJECT_DIR$/client/views/lesson/lesson.view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/login/login.controller.js" afterPath="$PROJECT_DIR$/client/views/login/login.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/views/login/login.view.html" afterPath="$PROJECT_DIR$/client/views/login/login.view.html" />
     </list>
     <ignored path="essentials24_lession_DEV.iws" />
@@ -23,17 +31,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.view.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7359413">
-              <caret line="97" column="58" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+            <state vertical-scroll-proportion="-0.6481481">
+              <caret line="232" column="34" selection-start-line="232" selection-start-column="34" selection-end-line="232" selection-end-column="34" />
               <folding>
-                <element signature="n#uib-accordion-group#0;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#uib-accordion-heading#0;n#uib-accordion-group#0;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#small#0;n#div#1;n#form#0;n#uib-accordion-group#1;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#small#0;n#div#0;n#form#0;n#div#0;n#uib-accordion-group#2;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#small#1;n#div#0;n#form#0;n#div#0;n#uib-accordion-group#2;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#form#0;n#div#0;n#uib-accordion-group#1;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#uib-accordion-group#2;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#uib-accordion-heading#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson.view.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/tmp/lesson.view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20588236">
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,17 +96,19 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client/directives/progress.directive.js" />
         <option value="$PROJECT_DIR$/client/directives/compileTemplate.directive.js" />
-        <option value="$PROJECT_DIR$/client/css/style.css" />
-        <option value="$PROJECT_DIR$/client/views/lesson/lesson.view.html" />
         <option value="$PROJECT_DIR$/client/services/lesson.service.client.js" />
         <option value="$PROJECT_DIR$/client/views/lesson/lesson.controller.js" />
         <option value="$PROJECT_DIR$/client/views/header/header.controller.js" />
         <option value="$PROJECT_DIR$/client/views/login/login.view.html.js" />
         <option value="$PROJECT_DIR$/client/views/header/header.view.html" />
         <option value="$PROJECT_DIR$/client/config.js" />
-        <option value="$PROJECT_DIR$/client/index.html" />
-        <option value="$PROJECT_DIR$/client/app.js" />
+        <option value="$PROJECT_DIR$/client/services/user.service.client.js" />
+        <option value="$PROJECT_DIR$/client/views/lesson/lesson.view.html" />
+        <option value="$PROJECT_DIR$/client/css/style.css" />
         <option value="$PROJECT_DIR$/client/views/login/login.controller.js" />
+        <option value="$PROJECT_DIR$/client/app.js" />
+        <option value="$PROJECT_DIR$/client/index.html" />
+        <option value="$PROJECT_DIR$/client/tmp/lesson.view.html" />
         <option value="$PROJECT_DIR$/client/views/login/login.view.html" />
       </list>
     </option>
@@ -93,9 +119,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
-    <option name="y" value="59" />
-    <option name="width" value="1415" />
+    <option name="x" value="130" />
+    <option name="y" value="193" />
+    <option name="width" value="1502" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -156,6 +182,122 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lession_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lesson_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lession_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lesson_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lession_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lesson_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lession_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lesson_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lession_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lesson_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lession_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essentials24_lesson_DEV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -170,12 +312,12 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/libraries" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/client/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/libraries" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.server.js">
@@ -248,16 +390,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="59" width="1415" height="744" extended-state="0" />
+    <frame x="130" y="193" width="1502" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15853658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12221472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1880734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1880734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24923548" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14678898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -285,6 +427,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#uib-accordion-heading#0;n#uib-accordion-group#0;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#uib-accordion-group#1;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#uib-accordion-group#2;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#uib-accordion-heading#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/lesson/lesson.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -416,32 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.118421055">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/tmp/lesson.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="22" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/services/lesson.service.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51148224">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/lesson/lesson.view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.67699116">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,65 +597,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/lesson/lesson.controller.js">
+    <entry file="file://$PROJECT_DIR$/client/libraries/ui-bootstrap-tpls-1.2.5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.3325688">
+          <caret line="293" column="50" selection-start-line="293" selection-start-column="50" selection-end-line="293" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/lesson.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6779324">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.14115308">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/services/user.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14314115">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/lesson/lesson.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4159664">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20588236">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/lesson/lesson.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53677934">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.579661">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17504051">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.50840336">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/login/login.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5725646">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.24850895">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/libraries/ui-bootstrap-tpls-1.2.5.js">
+    <entry file="file://$PROJECT_DIR$/client/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325688">
-          <caret line="293" column="50" selection-start-line="293" selection-start-column="50" selection-end-line="293" selection-end-column="50" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1458763931000" expanded="true" signature="157860:158274" placeholder="..." />
-            <marker date="1458763931000" expanded="true" signature="254028:254039" placeholder="..." />
-            <marker date="1458763931000" expanded="true" signature="254496:254507" placeholder="..." />
-            <marker date="1458763931000" expanded="true" signature="255018:255029" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.17892644">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/login/login.view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7359413">
-          <caret line="97" column="58" selection-start-line="97" selection-start-column="58" selection-end-line="97" selection-end-column="58" />
+        <state vertical-scroll-proportion="-0.6481481">
+          <caret line="232" column="34" selection-start-line="232" selection-start-column="34" selection-end-line="232" selection-end-column="34" />
           <folding>
-            <element signature="n#uib-accordion-group#0;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#uib-accordion-heading#0;n#uib-accordion-group#0;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#small#0;n#div#1;n#form#0;n#uib-accordion-group#1;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#0;n#div#0;n#form#0;n#div#0;n#uib-accordion-group#2;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#1;n#div#0;n#form#0;n#div#0;n#uib-accordion-group#2;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#uib-accordion-group#1;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#uib-accordion-group#2;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#uib-accordion-heading#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#form#0;n#div#0;n#uib-accordion-group#3;n#uib-accordion#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/tmp/lesson.view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20588236">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

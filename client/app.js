@@ -3,5 +3,5 @@
  */
 (function(){
     angular
-        .module("LessonApp", ['ngRoute', 'ui.bootstrap']);
+        .module("LessonApp", ['ngRoute', 'ui.bootstrap', 'ui.validate']);
 })();
